@@ -15,5 +15,18 @@ Video action recognition is one of the major challenges in visual scene understa
 - VARB introduces a new dataset _Construction-Actions_ by trimming and manually annotating activity videos of construction sites from YouTube-8M.
 - VARB bridges a significant gap in video action recognition research by bringing different action recognition models and datasets to a standard benchmark
 
+## Requirements
+
 ## Setup
 
+```
+conda create --name open-mmlab python==3.8
+conda activate avatar_env
+pip install -r requirements.txt
+
+conda activate open-mmlab
+```
+
+## Results
+
+The performance of the 
